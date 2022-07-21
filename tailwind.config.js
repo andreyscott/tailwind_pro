@@ -4,6 +4,11 @@ module.exports = {
   ],
   theme: {
     extend: {
+
+    backgroundImage: {
+      'hero': "url('/src/img/cat.jpg')",
+      // 'footer-texture': "url('/img/footer-texture.png')",
+    },
       colors: {
         wblue: '#5e1fff',
         wred: '#ff1e1e',

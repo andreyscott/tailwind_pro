@@ -1,3 +1,35 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@layer components {
+    
+    .parag {
+        @apply  mb-3 box-border  text-[#333] font-sans text-base leading-6
+
+    }
+    .header {
+        @apply  my-5 text-3xl  font-normal  text-[#333] box-border font-sans lg:text-4xl leading-8
+    }
+    .richtext:before, .w-richtext:after {
+        content: " ";
+        display: table;
+        grid-column-start: 1;
+        grid-row-start: 1;
+        grid-column-end: 2;
+        grid-row-end: 2;
+    }
+    
+    .w-richtext:after {
+        clear: both;
+    }
+    .w-richtext:before, .w-richtext:after {
+        content: " ";
+        display: table;
+        grid-column-start: 1;
+        grid-row-start: 1;
+        grid-column-end: 2;
+        grid-row-end: 2;
+    }
+}
