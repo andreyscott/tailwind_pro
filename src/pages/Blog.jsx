@@ -1,4 +1,5 @@
 import React from 'react'
+import { Cardsmall } from '../components/Cardsmall'
 // import { Card } from '../components/Card'
 
 export const Blog = () => {
@@ -34,20 +35,30 @@ export const Blog = () => {
                     <p className='parag'>
                         Nullam efficitur mauris sit amet ligula vehicula auctor. Morbi hendrerit ultricies lacus, ut viverra mi egestas sollicitudin. Phasellus facilisis nisl nec posuere tincidunt. Nullam maximus, ipsum a euismod pharetra, magna turpis condimentum
                         arcu, vitae finibus ante ligula non elit.</p>
-                </div>
-                <div className="single-post-author-block w-clearfix">
-                    <div className="post-author-line"></div><img src="https://uploads-ssl.webflow.com/62b42d69bf74cf28f620f5cb/62b4ff7cd57f7933f6e9da05_Mayank.png" alt="" className="post-author-photo" />
-                    <div className="post-author-name">Mayank Mishra</div>
-                    <div className="post-author-name description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In et metus erat. </div>
+                </div> 
+                <div className="flex   max-w-2xl  pt-2  border-gray-400 mt-10 mx-auto  border-t-[1px] text-left ">
+                    <div className="w-1/4 flex justify-end pt-2  h-1 mr-auto mb-10 ml-auto ">
+
+                    <img className=' w-16  h-16  mt-0 mr-6 ' 
+                    src="https://uploads-ssl.webflow.com/62b42d69bf74cf28f620f5cb/62b4ff7cd57f7933f6e9da05_Mayank.png" alt="face temp" /> 
+                    </div>
+            
+                      <div className=' w-3/4 flex flex-col'>
+                    <div className=" text-40 font-semi-bold">Mayank Mishra</div>
+                    <div className="block mt-2  text-[#afafaf]  text-base  ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In et metus erat. </div>
+                    </div>
+               
                 </div>
             </div>
-            <div className="section-title-wrapper">
-                <h2 className="section-title-2 dont-miss">Don&#x27;t miss these stories:</h2>
+            <div className="w-4/5   lg:w-full mx-auto lg:mb-14 ml-auto text-center  box-border">
+                <h2 className="section-title-2 dont-miss text-2xl   mb-1 font-light mt-0 text-[#b6b6b6] text-md lg:my-5   text-left ">Don&#x27;t miss these stories:</h2>
             </div>
+
       
                 
-                
             </div>
+            <Cardsmall />
+
         </div>
     </div>
     // </div>
