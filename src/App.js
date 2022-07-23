@@ -1,4 +1,5 @@
 // import { Card } from "./components/Card";
+import { About } from "./pages/Aboutus";
 import { Blog } from "./pages/Blog";
 // import Example from "./components/column";
 
@@ -7,7 +8,9 @@ export default function App() {
     <div className="">
       {/* <Example /> */}
       {/* <Card /> */}
-      <Blog />
+      {/* <Blog /> */}
+      <About />
+      
     </div>
   )
 }

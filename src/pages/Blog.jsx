@@ -5,14 +5,14 @@ import { Cardsmall } from '../components/Cardsmall'
 export const Blog = () => {
   return (
     <div className=' bg-hero bg-no-repeat bg-cover   '    >
-<div className='w-full h-full pt-40 pb-40 text-black bg-opacity-30'>
-<div className="relative justify-center text-center  max-w-none pt-0">
-                <div data-ix="fade-in-on-load-2" className=" mb-3 uppercase w-11/12 block mx-auto text-xs leading-3 ">July 4, 2016</div>
+<div className='w-full h-full pt-44 pb-44 text-black bg-opacity-30'>
+<div className="relative justify-center text-center text-white  max-w-none pt-0">
+                <div data-ix="fade-in-on-load-2" className=" mb-4 uppercase w-11/12 block mx-auto text-base leading-3 ">July 4, 2016</div>
                 <h2 data-ix="fade-in-on-load" className=" my-0 font-sans text-xl leading-6 lg:text-5xl lg:leading-10 font-normal blog-post-title">Our team is growing day by day </h2>
             </div>
 </div>
-<div className="relative mt-0  py-10 pl-10 pr-16 bg-white text-left ">
-        <div className=" relative  -top-20  pt-0  mx-auto  max-w-3xl lg:max-w-4xl ">
+<div className="relative mt-0  py-10  px-11 bg-[#f5f5f5] text-left ">
+        <div className=" relative  -top-24 xl:-top-28  left-4  pt-0 block  mx-auto  max-w-3xl lg:max-w-4xl ">
             <div className=" w-10/12 lg:w-11/12 p-12 lg:p-16 bg-white shadow-gray-400 shadow-md block ">
                 <div className="rich-text-block w-richtext">
                     <blockquote className='mb-8 py-0 px-5 border-l-4  border-[#e2e2e2] block md:py-3 md:px-5 text-lg leading-5 md:text-xl md:leading-7 '>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean velit dui, fermentum id facilisis sit amet, imperdiet ut est. Curabitur efficitur viverra nunc, et dignissim justo sodales ut. Mauris facilisis sit amet justo at rutrum.&nbsp;</blockquote>
@@ -41,6 +41,7 @@ export const Blog = () => {
 
                     <img className=' w-16  h-16  mt-0 mr-6 ' 
                     src="https://uploads-ssl.webflow.com/62b42d69bf74cf28f620f5cb/62b4ff7cd57f7933f6e9da05_Mayank.png" alt="face temp" /> 
+                   
                     </div>
             
                       <div className=' w-3/4 flex flex-col'>
