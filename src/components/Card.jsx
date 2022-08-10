@@ -93,8 +93,7 @@ export const Card = () => {
             <p className=" text-[#5e1fff] mb-4 text-base block font-medium">
             {/* Concept design of Trigan Metaverse has begun! */}
             {callout.name}
-            </p>
-       
+            </p>      
             <p className=" text-black dark:text-gray-300 text-sm ">
                 {callout.description}
             </p>
